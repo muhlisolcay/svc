@@ -57,4 +57,4 @@ if __name__ == '__main__':
     svc_model = Svc(model_name, config_name, cluster_model_path=cluster_model_path)
     svc = RealTimeVC()
     # 此处与vst插件对应，不建议更改
-    app.run(port=6842, host="0.0.0.0", debug=False, threaded=False)
+    app.run(port=8080, host="0.0.0.0", debug=False, threaded=False)
